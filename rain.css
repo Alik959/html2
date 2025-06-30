@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    background-color: bisque;
+  }
+  
+  .headerSection {
+    background-image: url("rainy_window.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  nav {
+    background-color: grey;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  nav a {
+    padding-right: 40px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  main {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 20px;
+    margin-bottom: 100px;
+  }
+  
+  .container {
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 30px;
+  }
+  
+  .homeContainer {
+    display: flex;
+  }
+  
+  img {
+    margin-right: 20px;
+  }
+  
+  footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: grey;
+    color: white;
+    display: flex;
+    justify-content: center;
+  }
