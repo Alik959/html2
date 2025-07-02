@@ -1,0 +1,62 @@
+.boxContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    grid-template-rows: repeat(4, 200px);
+    grid-row-gap: 3px;
+    grid-column-gap: 3px;
+    width:fit-content;
+}
+
+.box1 {
+    display: flex;
+    margin: 0;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-color: lightgreen;
+    justify-content: center;
+    align-items: center;
+}
+
+.box2 {
+    display: flex;
+    margin: 0;
+    background-color: yellow;
+    justify-content: center;
+    align-items: center;
+}
+
+.box3 {
+    display: flex;
+    background-color: cyan;
+    margin: 0;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    justify-content: center;
+    align-items: center;
+}
+
+.box4 {
+    display: flex;
+    background-color: pink;
+    margin: 0;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    justify-content: center;
+    align-items: center;
+}
+
+.box5 {
+    display: flex;
+    margin: 0;
+    background-color: lightgreen;
+    justify-content: center;
+    align-items: center;
+}
+
+.box6 {
+    display: flex;
+    margin: 0;
+    background-color: orange;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,17 @@
+.boxContainer {
+    display:grid;
+    grid-template-rows: 100px 100px 100px;
+    grid-template-columns: 300px 300px 300px;  
+    background-color: aquamarine;
+    gap: 5px;
+    padding: 10px;
+    width:fit-content;
+    grid-row-gap:50px;
+}
+.boxContainer .box {
+    border: 1px solid black;
+    background-color: bisque;
+    justify-content: center;
+    align-items: center;
+    display:flex;
+}
