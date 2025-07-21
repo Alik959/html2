@@ -1,0 +1,41 @@
+.header{
+    display:flex;
+    justify-content: center;
+    background-color: black;
+    color:white;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.container{
+    display:flex;
+    text-align:center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box {
+    width: 25%;
+    position: relative;
+}
+
+.box img {
+    width: 100%;
+    height: 400px;
+}
+
+.box .desc {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom:15px;
+    background-color: white;
+    
+}
+
+.desc p {
+    display: none;
+    transition:all 0.3s;
+}
+
+.desc:hover p {
+    display: block;
+}
