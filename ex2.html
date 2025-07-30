@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        // ex1
+
+        const students = [
+  { name: "Anu", grade: 85 },
+  { name: "Bold", grade: 92 },
+  { name: "Tuvshin", grade: 78 },
+  { name: "Naraa", grade: 88 },
+  { name: "Solongo", grade: 95 }
+];
+const topStudents = [];
+
+      students.forEach(function (student) {
+        if (student.grade > 90) {
+          return topStudents.push(student);
+        }
+      });
+                // ex1-3 
+      console.log("ttt", topStudents, students);
+        let highestGrade = 0
+        students.forEach(student =>{if(student.grade > highestGrade) {highestGrade = student.grade}});
+
+console.log("highest", highestGrade);  
+let highestStudent = students.find(student => student.grade == highestGrade);
+console.log(highestStudent);
+
+// ex2
+
+const products = [
+  { id: 1, name: "Laptop", price: 2500 },
+  { id: 2, name: "Mouse", price: 25 },
+  { id: 3, name: "Monitor", price: 400 },
+  { id: 4, name: "Keyboard", price: 100 },
+  { id: 5, name: "Phone", price: 1200 }
+];
+const cheapProducts = [];
+
+      products.forEach(function (product) {
+        if (product.price < 500) {
+          return cheapProducts.push(product);
+        }
+      });
+
+      console.log(cheapProducts, products);
+                        // ex2.3
+                        console.log("ttt", topStudent , students);
+        let expensiveProduct = 0
+        students.forEach(student =>{if(student.grade > highestGrade) {highestGrade = student.grade}});
+
+console.log("highest", highestGrade);  
+let highestStudent = students.find(student => student.grade == highestGrade);
+console.log(highestStudent);
+    
+    </script>
+</body>
+</html>

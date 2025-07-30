@@ -9,15 +9,59 @@
 
 <body>
     <script>
-        function isEven(a) {
-        if(a % 2==0) {
-            return true
-        } else {
-            return false
-        }
-    }
 
-        console.log(isEven(45));
+        // ex1, 2
+
+        const animals = ["lion", "tiger", "elephant", "giraffe", "boar"];
+        animals.splice(1, 1, "panda");
+        console.log(animals[2]);
+
+        // ex3
+
+        const books = ["1984", "Brave New World", "Fahrenheit 451",];
+        books.push("Robinson Crusoe", "Days");
+        console.log(books);
+
+        // ex4
+
+        const numbers = [10, 20, 30, 40, 50];
+        console.log(numbers.indexOf(30));
+        
+        // ex5
+
+        const fruits1 = ["apple", "banana", "kiwi"];
+        const fruits2 = ["melon", "grapes", "mango"];
+        const allFruits = fruits1.concat(fruits2);
+        console.log(allFruits);
+        
+        // ex6
+
+        const colors = ["red", "green", "blue", "yellow", "purple"]
+        console.log(colors.includes("red"));
+        console.log(colors.includes("brown"));
+        console.log(colors.includes("green"));
+        console.log(colors.includes("blue"));
+        console.log(colors.includes("yellow"));
+        console.log(colors.includes("purple"));
+
+        // ex7
+
+        const array1 = ["a", "b", "c"]
+        const array2 = ["a", "b", "c"]
+        function findLengthEven() {
+        if (array1.length = array2.length) {
+            return "true"
+        } else {
+            return "false"
+        }
+        }
+        console.log(findLengthEven());
+        
+        // ex8
+
+        const words = ["JavaScript", "is", "a", "versatile", "language"]
+        console.log(words.join(" "));
+        
     </script>
 </body>
 
